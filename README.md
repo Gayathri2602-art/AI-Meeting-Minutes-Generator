@@ -75,7 +75,7 @@ meeting_minutes.ipynb
 
 Watch the application in action below:
 
-[▶️ Watch Demo Video](./metting_minutes.mp4)
+<video src="demo.mp4" controls width="100%"></video> [▶️ Download / Open Video](./meeting_minutes.mp4)
 
 ---
 
