@@ -89,8 +89,6 @@ meeting_minutes.ipynb
 
 ---
 
----
-
 📽️ What the Demo Shows
 🎤 Uploading / recording meeting audio
 📝 Generating transcript using OpenAI Whisper
