@@ -89,19 +89,6 @@ meeting_minutes.ipynb
 
 ---
 
-📽️ What the Demo Shows
-🎤 Uploading / recording meeting audio
-
-📝 Generating transcript using OpenAI Whisper
-
-📊 Creating structured meeting minutes using an LLM
-
-📥 Downloading the final report as a PDF
-
-🖥️ Interactive UI built with Gradio
-
----
-
 ## 🌟 Future Improvements
 
 * 🕒 Timestamp-based navigation
