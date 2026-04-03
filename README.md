@@ -71,11 +71,23 @@ meeting_minutes.ipynb
 
 ---
 
-🎬 Demo
+## 🎬 Demo
 
-Watch the application in action below:
+### ▶️ Watch Demo Video
 
-<video src="demo.mp4" controls width="100%"></video> [▶️ Download / Open Video](./meeting_minutes.mp4)
+[▶️ Click here to watch the demo](./meeting_minutes.mp4)
+
+---
+
+### 📽️ What the Demo Shows
+
+* 🎤 Uploading / recording meeting audio
+* 📝 Transcription using AI
+* 📊 Generating structured meeting minutes
+* 📥 Downloading PDF report
+* 🖥️ Built with Gradio
+
+---
 
 ---
 
