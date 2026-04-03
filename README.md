@@ -1,30 +1,49 @@
 # 🎤 AI Meeting Minutes Generator
 
-### 👨‍💻 Developed by *Your Name*
-
-An AI-powered application that converts meeting audio into structured, professional meeting minutes including summaries, key points, decisions, and action items.
+An AI-powered application that converts meeting audio into structured meeting minutes using a step-by-step workflow.
 
 ---
 
 ## 🚀 Features
 
-* 🎧 **Speech-to-Text** using Whisper
-* 🧠 **AI Summarization** using LLM (LLaMA / Hugging Face models)
-* 📝 **Structured Meeting Minutes**
+* 🎧 **Audio to Transcript** (Speech-to-Text using Whisper)
+* 📝 **Transcript to Meeting Minutes** (LLM-based summarization)
+* 📊 Generates:
 
   * Summary
   * Key Discussion Points
   * Decisions
   * Action Items
-  * Timeline
-  * Sentiment
+  * Next Steps
 * 📥 **Download as PDF**
-* 🎙️ Supports **audio upload or recording**
-* ⚡ Built with an interactive **Gradio UI**
+* 🔄 **Step-by-step UI flow** (easy to use and debug)
 
 ---
 
-## 🧩 Tech Stack
+## 🧩 Workflow
+
+```text
+Audio Input
+   ↓
+Transcription (Whisper)
+   ↓
+Meeting Minutes Generation (LLM)
+   ↓
+PDF Export
+```
+
+---
+
+## 🖥️ User Flow
+
+1. Upload or record meeting audio 🎤
+2. Click **"Transcribe Audio"** → View transcript
+3. Click **"Generate Minutes"** → Get structured summary
+4. Click **"Download PDF"** → Export results
+
+---
+
+## ⚙️ Tech Stack
 
 * Python
 * Transformers (Hugging Face)
@@ -37,21 +56,9 @@ An AI-powered application that converts meeting audio into structured, professio
 
 ## 📂 Project Structure
 
-```
-├── meeting_minutes.py     # Main application
-├── meeting_minutes.pdf    # Generated output
-```
-
----
-
-
-## 🔑 Setup
-
-Set your Hugging Face token:
-
-```python
-from huggingface_hub import login
-login("your_token_here")
+```text
+├── meeting_minutes.ipynb              # Main Gradio app
+├── meeting_minutes.pdf                # Generated output
 ```
 
 ---
@@ -59,52 +66,34 @@ login("your_token_here")
 ## ▶️ Run the App
 
 ```bash
-meeting_minutes.py
+meeting_minutes.ipynb
 ```
-
-Then open the local Gradio link in your browser.
 
 ---
 
-## 🖥️ Usage
+🎬 Demo
 
-1. Upload or record meeting audio
-2. Click **Generate Minutes**
-3. View:
+Watch the application in action below:
 
-   * Transcript
-   * Structured meeting minutes
-4. Download the report as **PDF**
+[▶️ Watch Demo Video](./metting_minutes.mp4)
 
 ---
 
-## 🧠 How It Works
-
-```
-Audio Input
-   ↓
-Whisper (Speech → Text)
-   ↓
-Timestamp Processing
-   ↓
-LLM (Summarization + Structuring)
-   ↓
-Formatted Meeting Minutes
-   ↓
-PDF Export
-```
+📽️ What the Demo Shows
+🎤 Uploading / recording meeting audio
+📝 Generating transcript using OpenAI Whisper
+📊 Creating structured meeting minutes using an LLM
+📥 Downloading the final report as a PDF
+🖥️ Interactive UI built with Gradio
 
 ---
 
 ## 🌟 Future Improvements
 
-* 👥 Speaker diarization (who said what)
+* 🕒 Timestamp-based navigation
 * 📊 Meeting analytics dashboard
 * 🌐 Cloud deployment
-* 🗂️ Meeting history storage
-* 🧾 DOCX export option
+* 🧾 Export to DOCX
 
 ---
 
-
----
