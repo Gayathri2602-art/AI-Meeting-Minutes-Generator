@@ -75,7 +75,9 @@ meeting_minutes.ipynb
 
 ### ▶️ Watch Demo Video
 
-[▶️ Click here to watch the demo](./meeting_minutes.mp4)
+[▶️ Click here to watch the demo](.demo/demo.mp4)
+
+![App Screenshot](/demo/demo.png)
 
 ---
 
